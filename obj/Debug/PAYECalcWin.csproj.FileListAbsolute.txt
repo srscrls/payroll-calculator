@@ -1,0 +1,13 @@
+C:\Users\Carlos\documents\visual studio 2013\Projects\PAYECalc\PAYECalcWin\bin\Debug\PAYECalcWin.exe.config
+C:\Users\Carlos\documents\visual studio 2013\Projects\PAYECalc\PAYECalcWin\bin\Debug\PAYECalcWin.exe
+C:\Users\Carlos\documents\visual studio 2013\Projects\PAYECalc\PAYECalcWin\bin\Debug\PAYECalcWin.pdb
+C:\Users\Carlos\documents\visual studio 2013\Projects\PAYECalc\PAYECalcWin\obj\Debug\PAYECalcWin.csprojResolveAssemblyReference.cache
+C:\Users\Carlos\documents\visual studio 2013\Projects\PAYECalc\PAYECalcWin\obj\Debug\MainWindow.baml
+C:\Users\Carlos\documents\visual studio 2013\Projects\PAYECalc\PAYECalcWin\obj\Debug\MainWindow.g.cs
+C:\Users\Carlos\documents\visual studio 2013\Projects\PAYECalc\PAYECalcWin\obj\Debug\App.g.cs
+C:\Users\Carlos\documents\visual studio 2013\Projects\PAYECalc\PAYECalcWin\obj\Debug\PAYECalcWin_MarkupCompile.cache
+C:\Users\Carlos\documents\visual studio 2013\Projects\PAYECalc\PAYECalcWin\obj\Debug\PAYECalcWin.g.resources
+C:\Users\Carlos\documents\visual studio 2013\Projects\PAYECalc\PAYECalcWin\obj\Debug\PAYECalcWin.Properties.Resources.resources
+C:\Users\Carlos\documents\visual studio 2013\Projects\PAYECalc\PAYECalcWin\obj\Debug\PAYECalcWin.csproj.GenerateResource.Cache
+C:\Users\Carlos\documents\visual studio 2013\Projects\PAYECalc\PAYECalcWin\obj\Debug\PAYECalcWin.exe
+C:\Users\Carlos\documents\visual studio 2013\Projects\PAYECalc\PAYECalcWin\obj\Debug\PAYECalcWin.pdb

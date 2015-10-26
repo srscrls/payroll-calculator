@@ -1,0 +1,110 @@
+﻿<Window x:Class="PAYECalcWin.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Payroll Calculator" Height="535" Width="529">
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="_File">
+                <MenuItem Header="_New" Click="Clear_Selection" />
+                <Separator />
+                <MenuItem Header="_Exit" Click="Exit"/>
+            </MenuItem>
+        </Menu>
+        <StackPanel Margin="10">
+            <Label Content="Payroll Calculator" HorizontalAlignment="Center" FontSize="30" FontWeight="Bold"/>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Label Content="Please enter the year:"/>
+            <ComboBox Grid.Column="1" SelectionChanged="Year_Selected" x:Name="Year" HorizontalAlignment="Left" Width="100" Height="20"/>
+            <Label Grid.Row="1" Content="Please enter your salary:"/>
+            <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Horizontal">
+                <TextBox x:Name="Salary" TextAlignment="Right" Width="100" Height="20"/>
+                <Label Content="per" />
+                <ComboBox Name="Period" Width="100" Height="20">
+                    <ComboBoxItem Content="Year"/>
+                    <ComboBoxItem Content="Month"/>
+                    <ComboBoxItem Content="Week"/>
+                </ComboBox>
+            </StackPanel>
+            <Label Grid.Row="2" Content="Please enter your tax code:" />
+            <TextBox Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left" x:Name="TaxCode" Width="75" Height="20"/>
+                <Label Grid.Row="3" Content="Is this salary your gross or net?"/>
+            <StackPanel Grid.Row="3" Grid.Column="1" Orientation="horizontal">
+                <RadioButton Name="Gross" IsChecked="True" Content="Gross" VerticalAlignment="Center"/>
+                <RadioButton Name="Net" Content="Net" VerticalAlignment="Center"/>
+            </StackPanel>
+            <Label Grid.Row="4" Content="Please enter your NI category letter:" />
+            <ComboBox Grid.Row="4" Name="NICategory" HorizontalAlignment="Left" Grid.Column="1" Width="35" Height="20">
+
+            </ComboBox>
+            <Label Grid.Row="5" Content="Are you liable for student loan deductions?" />
+            <CheckBox Grid.Row="5" Grid.Column="1" VerticalAlignment="Center" Name="SLDeductions"/>
+        </Grid>
+        <StackPanel Orientation="Horizontal">
+            <Button Content="Calculate" Name="Calculate" IsEnabled="False" Width="200" Margin="10" Click="Button_Click"/>
+            <Button Content="Clear" Margin="10" Width="200" Click="Clear_Selection"/>
+        </StackPanel>
+        <Separator />
+        <Grid Name="Results">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition Height="0" Name="StudentLoanRow"/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Label Grid.Column="1" HorizontalAlignment="Right" Content="Yearly" />
+            <Label Grid.Column="2" HorizontalAlignment="Right" Content="Monthly"/>
+            <Label Grid.Column="3" HorizontalAlignment="Right" Content="Weekly"/>
+            <Label Grid.Row="1" Content="Gross pay: "/>
+            <Label Grid.Row="1" Grid.Column="1" Name="GrossYearlyAmount" ContentStringFormat="{}C" HorizontalAlignment="Right"/>
+            <Label Grid.Row="1" Grid.Column="2" Name="GrossMonthlyAmount" ContentStringFormat="{}C" HorizontalAlignment="Right"/>
+            <Label Grid.Row="1" Grid.Column="3" Name="GrossWeeklyAmount" ContentStringFormat="{}C" HorizontalAlignment="Right"/>
+            <Label Grid.Row="2" Content="PAYE"/>
+            <Label Grid.Row="2" Grid.Column="1" Name="PAYEYearlyAmount" ContentStringFormat="{}C" HorizontalAlignment="Right"/>
+            <Label Grid.Row="2" Grid.Column="2" Name="PAYEMonthlyAmount" ContentStringFormat="{}C" HorizontalAlignment="Right"/>
+            <Label Grid.Row="2" Grid.Column="3" Name="PAYEWeeklyAmount" ContentStringFormat="{}C" HorizontalAlignment="Right"/>
+            <Label Grid.Row="3" Content="National Insurance: "/>
+            <Label Grid.Row="3" Grid.Column="1" Name="NIYearlyAmount" ContentStringFormat="{}C" HorizontalAlignment="Right"/>
+            <Label Grid.Row="3" Grid.Column="2" Name="NIMonthlyAmount" ContentStringFormat="{}C" HorizontalAlignment="Right"/>
+            <Label Grid.Row="3" Grid.Column="3" Name="NIWeeklyAmount" ContentStringFormat="{}C" HorizontalAlignment="Right"/>
+            <Label Grid.Row="4" Content="Student Loan: " />
+            <Label Grid.Row="4" Grid.Column="1" Name="SLYearlyAmount" ContentStringFormat="{}C" HorizontalAlignment="Right"/>
+            <Label Grid.Row="4" Grid.Column="2" Name="SLMonthlyAmount" ContentStringFormat="{}C" HorizontalAlignment="Right"/>
+            <Label Grid.Row="4" Grid.Column="3" Name="SLWeeklyAmount" ContentStringFormat="{}C" HorizontalAlignment="Right"/>
+            <Label Grid.Row="5" FontWeight="Bold" Content="Net pay: "/>
+            <Label Grid.Row="5" Grid.Column="1" FontWeight="Bold" Name="NetYearlyAmount" ContentStringFormat="{}C" HorizontalAlignment="Right"/>
+            <Label Grid.Row="5" Grid.Column="2" FontWeight="Bold" Name="NetMonthlyAmount" ContentStringFormat="{}C" HorizontalAlignment="Right"/>
+            <Label Grid.Row="5" Grid.Column="3" FontWeight="Bold" Name="NetWeeklyAmount" ContentStringFormat="{}C" HorizontalAlignment="Right"/>
+            <Label Grid.Row="6" Content="Employer's NI: " />
+            <Label Grid.Row="6" Grid.Column="1" Name="empNIYearlyAmount" ContentStringFormat="{}C" HorizontalAlignment="Right"/>
+            <Label Grid.Row="6" Grid.Column="2" Name="empNIMonthlyAmount" ContentStringFormat="{}C" HorizontalAlignment="Right"/>
+            <Label Grid.Row="6" Grid.Column="3" Name="empNIWeeklyAmount" ContentStringFormat="{}C" HorizontalAlignment="Right"/>
+            <Label Grid.Row="7" Content="Total due to HMRC: "/>
+            <Label Grid.Row="7" Grid.Column="1" Name="TotalTaxYearlyAmount" ContentStringFormat="{}C" HorizontalAlignment="Right"/>
+            <Label Grid.Row="7" Grid.Column="2" Name="TotalTaxMonthlyAmount" ContentStringFormat="{}C" HorizontalAlignment="Right"/>
+            <Label Grid.Row="7" Grid.Column="3" Name="TotalTaxWeeklyAmount" ContentStringFormat="{}C" HorizontalAlignment="Right"/>
+        </Grid>
+    </StackPanel>
+    </DockPanel>
+</Window>

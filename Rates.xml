@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Category Type="Personal">
+  <YearEnd Year="2015">
+    <PAYE>
+        <Default>1000L</Default>
+        <Adjusted>100000</Adjusted>
+      <Bands>
+      <Amount>0</Amount>
+        <Rate>0.2</Rate>
+        <Amount>31866</Amount>
+        <Rate>0.4</Rate>
+        <Amount>150000</Amount>
+        <Rate>0.45</Rate>
+      </Bands>
+      <BandCodes>
+        <code letter="NT">
+        <Amount>0</Amount>
+        <Rate>0</Rate>
+        </code>
+        <code letter="BR">
+          <Amount>0</Amount>
+          <Rate>0.2</Rate>
+        </code>
+        <code letter="D0">
+          <Amount>0</Amount>
+          <Rate>0.4</Rate>
+        </code>
+        <code letter="D1">
+          <Amount>0</Amount>
+          <Rate>0.45</Rate>
+        </code>
+      </BandCodes>
+      <BandEndLetters>
+        <Letter>L</Letter>
+        <Letter>M</Letter>
+        <Letter>N</Letter>
+        <Letter>Y</Letter>
+        <Letter>T</Letter>
+      </BandEndLetters>
+      <BandStartLetters>
+        <Letter>K</Letter>
+      </BandStartLetters>
+    </PAYE>
+    <NIContributions>
+      <DefaultBand>A</DefaultBand>
+      <Band letter="A">
+        <Amount>0</Amount>
+        <Rate>0</Rate>
+        <Amount>7956</Amount>
+        <Rate>0.12</Rate>
+        <Amount>41865</Amount>
+        <Rate>0.02</Rate>
+      </Band>
+      <Band letter="B">
+        <Amount>0</Amount>
+        <Rate>0</Rate>
+        <Amount>7956</Amount>
+        <Rate>0.0585</Rate>
+        <Amount>41865</Amount>
+        <Rate>0.02</Rate>
+      </Band>
+      <Band letter="C">
+        <Amount>0</Amount>
+        <Rate>0</Rate>
+      </Band>
+      <Band letter="D">
+        <Amount>0</Amount>
+        <Rate>0</Rate>
+        <Amount>5772</Amount>
+        <Rate>-0.014</Rate>
+        <Amount>7956</Amount>
+        <Rate>0.106</Rate>
+        <Amount>40040</Amount>
+        <Rate>0.12</Rate>
+        <Amount>41865</Amount>
+        <Rate>0.02</Rate>
+      </Band>
+      <Band letter="E">
+        <Amount>0</Amount>
+        <Rate>0</Rate>
+        <Amount>7956</Amount>
+        <Rate>0.0585</Rate>
+        <Amount>41865</Amount>
+        <Rate>0.02</Rate>
+      </Band>
+      <Band letter="J">
+        <Amount>0</Amount>
+        <Rate>0</Rate>
+        <Amount>7956</Amount>
+        <Rate>0.02</Rate>
+      </Band>
+      <Band letter="L">
+        <Amount>0</Amount>
+        <Rate>0</Rate>
+        <Amount>5772</Amount>
+        <Rate>-0.014</Rate>
+        <Amount>7956</Amount>
+        <Rate>0.02</Rate>
+      </Band>
+    </NIContributions>
+    <EmployersNI>
+      <Band letter="A">
+        <Amount>0</Amount>
+        <Rate>0</Rate>
+        <Amount>7956</Amount>
+        <Rate>0.138</Rate>
+      </Band>
+      <Band letter="B">
+        <Amount>0</Amount>
+        <Rate>0</Rate>
+        <Amount>7956</Amount>
+        <Rate>0.138</Rate>
+      </Band>
+      <Band letter="C">
+        <Amount>0</Amount>
+        <Rate>0</Rate>
+        <Amount>7956</Amount>
+        <Rate>0.138</Rate>
+      </Band>
+      <Band letter="D">
+        <Amount>0</Amount>
+        <Rate>0</Rate>
+        <Amount>5772</Amount>
+        <Rate>-0.034</Rate>
+        <Amount>7956</Amount>
+        <Rate>0.104</Rate>
+        <Amount>40040</Amount>
+        <Rate>0.138</Rate>
+        <Amount>41865</Amount>
+        <Rate>0.02</Rate>
+      </Band>
+      <Band letter="E">
+        <Amount>0</Amount>
+        <Rate>0</Rate>
+        <Amount>5772</Amount>
+        <Rate>-0.034</Rate>
+        <Amount>7956</Amount>
+        <Rate>0.104</Rate>
+        <Amount>40040</Amount>
+        <Rate>0.138</Rate>
+        <Amount>41865</Amount>
+        <Rate>0.02</Rate>
+      </Band>
+      <Band letter="J">
+        <Amount>0</Amount>
+        <Rate>0</Rate>
+        <Amount>7956</Amount>
+        <Rate>0.138</Rate>
+      </Band>
+      <Band letter="L">
+        <Amount>0</Amount>
+        <Rate>0</Rate>
+        <Amount>5772</Amount>
+        <Rate>-0.034</Rate>
+        <Amount>7956</Amount>
+        <Rate>0.104</Rate>
+        <Amount>40040</Amount>
+        <Rate>0.138</Rate>
+        <Amount>41865</Amount>
+        <Rate>0.02</Rate>
+      </Band>
+    </EmployersNI>
+    <StudentLoan>
+      <Amount>0</Amount>
+      <Rate>0</Rate>
+      <Amount>16910</Amount>
+      <Rate>0.09</Rate>
+    </StudentLoan>
+  </YearEnd>
+<YearEnd Year="2016">
+    <PAYE>
+      <Default>1060L</Default>
+      <Adjusted>100000</Adjusted>
+      <Bands>
+      <Amount>0</Amount>
+        <Rate>0.2</Rate>
+        <Amount>31866</Amount>
+        <Rate>0.4</Rate>
+        <Amount>150000</Amount>
+        <Rate>0.45</Rate>
+      </Bands>
+     <BandCodes>
+        <code letter="NT">
+        <Amount>0</Amount>
+        <Rate>0</Rate>
+        </code>
+        <code letter="BR">
+          <Amount>0</Amount>
+          <Rate>0.2</Rate>
+        </code>
+        <code letter="D0">
+          <Amount>0</Amount>
+          <Rate>0.4</Rate>
+        </code>
+        <code letter="D1">
+          <Amount>0</Amount>
+          <Rate>0.45</Rate>
+        </code>
+      </BandCodes>
+      <BandEndLetters>
+        <Letter>L</Letter>
+        <Letter>M</Letter>
+        <Letter>N</Letter>
+        <Letter>Y</Letter>
+        <Letter>T</Letter>
+      </BandEndLetters>
+      <BandStartLetters>
+        <Letter>K</Letter>
+      </BandStartLetters>
+    </PAYE>
+    <NIContributions>
+      <DefaultBand>A</DefaultBand>
+      <Band letter="A">
+        <Amount>0</Amount>
+        <Rate>0</Rate>
+        <Amount>8060</Amount>
+        <Rate>0.12</Rate>
+        <Amount>42385</Amount>
+        <Rate>0.02</Rate>
+      </Band>
+      <Band letter="B">
+        <Amount>0</Amount>
+        <Rate>0</Rate>
+        <Amount>8060</Amount>
+        <Rate>0.0585</Rate>
+        <Amount>42385</Amount>
+        <Rate>0.02</Rate>
+      </Band>
+      <Band letter="C">
+        <Amount>0</Amount>
+        <Rate>0</Rate>
+      </Band>
+      <Band letter="D">
+        <Amount>0</Amount>
+        <Rate>0</Rate>
+        <Amount>5824</Amount>
+        <Rate>-0.014</Rate>
+        <Amount>8060</Amount>
+        <Rate>0.106</Rate>
+        <Amount>40040</Amount>
+        <Rate>0.12</Rate>
+        <Amount>42385</Amount>
+        <Rate>0.02</Rate>
+      </Band>
+      <Band letter="E">
+        <Amount>0</Amount>
+        <Rate>0</Rate>
+        <Amount>8060</Amount>
+        <Rate>0.0585</Rate>
+        <Amount>42385</Amount>
+        <Rate>0.02</Rate>
+      </Band>
+      <Band letter="I">
+        <Amount>0</Amount>
+        <Rate>0</Rate>
+        <Amount>5824</Amount>
+        <Rate>-0.014</Rate>
+        <Amount>8060</Amount>
+        <Rate>0.106</Rate>
+        <Amount>40040</Amount>
+        <Rate>0.12</Rate>
+        <Amount>42385</Amount>
+        <Rate>0.02</Rate>
+      </Band>
+      <Band letter="J">
+        <Amount>0</Amount>
+        <Rate>0</Rate>
+        <Amount>8060</Amount>
+        <Rate>0.02</Rate>
+      </Band>
+      <Band letter="K">
+        <Amount>0</Amount>
+        <Rate>0</Rate>
+        <Amount>5824</Amount>
+        <Rate>-0.014</Rate>
+        <Amount>8060</Amount>
+        <Rate>0.02</Rate>
+      </Band>
+      <Band letter="L">
+        <Amount>0</Amount>
+        <Rate>0</Rate>
+        <Amount>5824</Amount>
+        <Rate>-0.014</Rate>
+        <Amount>8060</Amount>
+        <Rate>0.02</Rate>
+      </Band>
+      <Band letter="M">
+        <Amount>0</Amount>
+        <Rate>0</Rate>
+        <Amount>8060</Amount>
+        <Rate>0.12</Rate>
+        <Amount>42385</Amount>
+        <Rate>0.02</Rate>
+      </Band>
+       <Band letter="Z">
+        <Amount>0</Amount>
+        <Rate>0</Rate>
+        <Amount>8060</Amount>
+        <Rate>0.02</Rate>
+      </Band>
+    </NIContributions>
+    <EmployersNI>
+      <Band letter="A">
+        <Amount>0</Amount>
+        <Rate>0</Rate>
+        <Amount>8112</Amount>
+        <Rate>0.138</Rate>
+      </Band>
+      <Band letter="B">
+        <Amount>0</Amount>
+        <Rate>0</Rate>
+        <Amount>8112</Amount>
+        <Rate>0.138</Rate>
+      </Band>
+      <Band letter="C">
+        <Amount>0</Amount>
+        <Rate>0</Rate>
+        <Amount>8112</Amount>
+        <Rate>0.138</Rate>
+      </Band>
+      <Band letter="D">
+        <Amount>0</Amount>
+        <Rate>0</Rate>
+        <Amount>5824</Amount>
+        <Rate>-0.034</Rate>
+        <Amount>8112</Amount>
+        <Rate>0.104</Rate>
+        <Amount>40040</Amount>
+        <Rate>0.138</Rate>
+      </Band>
+      <Band letter="E">
+        <Amount>0</Amount>
+        <Rate>0</Rate>
+        <Amount>5824</Amount>
+        <Rate>-0.034</Rate>
+        <Amount>8112</Amount>
+        <Rate>0.104</Rate>
+        <Amount>40040</Amount>
+        <Rate>0.138</Rate>
+      </Band>
+      <Band letter="I">
+        <Amount>0</Amount>
+        <Rate>0</Rate>
+        <Amount>5824</Amount>
+        <Rate>-0.034</Rate>
+        <Amount>40040</Amount>
+        <Rate>0</Rate>
+        <Amount>42385</Amount>
+        <Rate>0.138</Rate>
+      </Band>
+      <Band letter="J">
+        <Amount>0</Amount>
+        <Rate>0</Rate>
+        <Amount>8060</Amount>
+        <Rate>0.138</Rate>
+      </Band>
+      <Band letter="K">
+        <Amount>0</Amount>
+        <Rate>0</Rate>
+        <Amount>5824</Amount>
+        <Rate>-0.034</Rate>
+        <Amount>40040</Amount>
+        <Rate>0</Rate>
+        <Amount>42385</Amount>
+        <Rate>0.138</Rate>
+      </Band>
+      <Band letter="L">
+        <Amount>0</Amount>
+        <Rate>0</Rate>
+        <Amount>5824</Amount>
+        <Rate>-0.034</Rate>
+        <Amount>8060</Amount>
+        <Rate>0.104</Rate>
+        <Amount>40040</Amount>
+        <Rate>0.138</Rate>
+        <Amount>42385</Amount>
+        <Rate>0.02</Rate>
+      </Band>
+      <Band letter="M">
+        <Amount>0</Amount>
+        <Rate>0</Rate>
+        <Amount>42385</Amount>
+        <Rate>0.138</Rate>
+      </Band>
+      <Band letter="Z">
+        <Amount>0</Amount>
+        <Rate>0</Rate>
+        <Amount>42385</Amount>
+        <Rate>0.138</Rate>
+      </Band>
+    </EmployersNI>
+    <StudentLoan>
+      <Amount>0</Amount>
+      <Rate>0</Rate>
+      <Amount>16910</Amount>
+      <Rate>0.09</Rate>
+    </StudentLoan>
+  </YearEnd>
+</Category>
